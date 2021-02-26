@@ -9,7 +9,9 @@ Redis server- for caching
 # Control dashboard
 responsive as per assessment requirement,
 Disabling button of landing pads if symbols are entered -Only alphanumeric and dash(-) is acceptable & button disabled if input field is empty,
-Get data Capsules and rocket of from SpaceX API. First it will check in cache, if not present in cache then it will call data from api.
+Get data of Capsules and rocket of from SpaceX API. First it will check in cache, if not present in cache then it will call data from api,
+Get data ship of from local mysql database.. First it will check in cache, if not present in cache then it will call data from database,
+
 Implementation using react hooks
 
 # Ship data dashboardship
